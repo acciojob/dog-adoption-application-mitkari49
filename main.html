@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Dogo Adoption Application</title>
+    <title>Dog Adoption Application</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Basic CSS for visual appeal */
         body {
-         font-family: Arial, sans-serif;
+            font-family: Arial, sans-serif;
             background-color: #f9f9f9;
             display: flex;
             justify-content: center;
@@ -28,10 +28,6 @@
         }
         .form-group {
             margin-bottom: 15px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
         }
         input[type="text"], select {
             width: 100%;
@@ -61,23 +57,20 @@
 
 <body>
     <div class="container">
-        <h1>Dogo Adoption Application</h1>
+        <h1>Dog Adoption Application</h1>
         <form method="post">
             <div class="form-group">
-                <label for="name">Name</label>
                 <input id="name" type="text" placeholder="Name">
             </div>
             <div class="form-group">
-                <label for="phone">Phone Number</label>
                 <input id="phone" type="text" placeholder="Phone Number">
             </div>
             <div class="form-group">
-                <label for="address">Address</label>
                 <input id="address" type="text" placeholder="Address">
             </div>
             <div class="form-group">
                 <label for="checkbox">
-                    <input id="checkbox" type="checkbox"> Have you ever lived with a Dog before?
+                    <input id="checkbox" type="checkbox" value="Have you ever lived with a Dog before?"> Have you ever lived with a Dog before?
                 </label>
             </div>
             <div class="form-group">
@@ -92,7 +85,6 @@
             <button id="submit" type="submit">Submit</button>
         </form>
     </div>
-    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
